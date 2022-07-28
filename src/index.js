@@ -1,6 +1,6 @@
 if (process.env.NODE_ENV === 'development')
     require('../style/main.css')
-else require('./style/main.css');
+else require('/style/main.css');
 
 import EmptyFields from './EmptyFields.js';
 import Field from './Field.js';
