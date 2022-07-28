@@ -8,9 +8,9 @@ module.exports = merge(common, {
         new CopyPlugin({
             patterns: [
                 { from: "style", to: "style" },
-                { from: "logo.ico", to: "logo.ico" },
+                { from: "logo.ico", to: "public/logo.ico" },
                 { from: "logo.png", to: "logo.png" },
-                { from: "manifest.json", to: "manifest.json" },
+                { from: "manifest.json", to: "public/manifest.json" },
             ],
         }),
     ],
