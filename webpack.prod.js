@@ -9,6 +9,12 @@ module.exports = merge(common, {
             patterns: [
                 { from: "style", to: "style" },
             ],
+            patterns: [
+                { from: "logo.png", to: "logo.png" },
+            ],
+            patterns: [
+                { from: "logo.png", to: "logo.png" },
+            ],
         }),
     ],
     output: {
