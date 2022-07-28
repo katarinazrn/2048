@@ -3,12 +3,12 @@
     "name": "2048",
     "icons": [
         {
-            "src": "logo.png",
+            "src": "logo.ico",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "logo.png",
+            "src": "logo.ico",
             "type": "image/png",
             "sizes": "512x512"
         }
