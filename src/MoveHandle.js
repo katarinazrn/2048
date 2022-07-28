@@ -1,5 +1,3 @@
-const TILE_SIZE = 110;
-
 export default class MoveHandler {
 
 
@@ -181,7 +179,7 @@ export default class MoveHandler {
     }
 
     moveToEmptyField(currentField, nextField) {
-        currentField.tile.move(nextField.row * TILE_SIZE, nextField.column * TILE_SIZE);
+        currentField.tile.move(nextField.row * this.tile_size, nextField.column * this.tile_size);
         nextField.tile = currentField.tile;
 
         this.emptyFields.remove({ row: nextField.row, column: nextField.column });
