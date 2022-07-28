@@ -10,10 +10,13 @@ module.exports = merge(common, {
                 { from: "style", to: "style" },
             ],
             patterns: [
-                { from: "logo.png", to: "logo.png" },
+                { from: "logo.ico", to: "logo.ico" },
             ],
             patterns: [
                 { from: "logo.png", to: "logo.png" },
+            ],
+            patterns: [
+                { from: "manifest.json", to: "manifest.json" },
             ],
         }),
     ],
